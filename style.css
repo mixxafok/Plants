@@ -1,0 +1,565 @@
+body{
+   margin: 0px;
+   cursor: default;
+}
+
+header{
+   display: flex;
+
+width: 100%;
+height: 134px;
+left: 0px;
+top: 0px;
+
+background: #EDF2EC;
+}
+
+a{
+   text-decoration: none;
+   color: #717171;
+}
+
+.navbar{
+width: 84.7%;
+height: 50px;
+display: flex;
+justify-content: space-between;
+justify-content: baseline;
+margin-left: 7.56%;
+margin-right: 7.56% ;
+
+}
+
+
+nav {
+width: 31.39%;
+height: 50px;
+float:right;
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 50px;
+
+color: #010201;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+#Home{
+   color: #E06733;
+}
+
+#logo {
+   display: flex;
+   align-items: baseline;
+}
+
+
+#vector1{
+   position: relative;
+   left: 20px;
+   width: 19px;
+   height: 20px;
+}
+#vector2{
+   position: relative;
+   left: 6px;
+   width: 19px;
+   height: 20px;
+}
+
+
+#plants {
+   width: 4%;
+   height: 17px;
+
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+
+   color: #000000;
+}
+
+.welcome{
+   width: 100%;
+   height: 532px;
+   display: flex;
+   background: #EDF2EC;
+}
+
+#welcomeSection{
+   width: 84.86%;
+   height: 407.36px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 7.56%;
+   margin-left: 7.56%;
+}
+
+#leafs{
+   width:37%;
+}
+
+#welcomeText{
+
+   width: 45%;
+   display:flex;
+   flex-direction: column;
+   justify-content:start;
+}
+
+#welcomeZag{
+   height: 24%;
+   width: 100%;
+   text-align:left;
+   
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 50px;
+   color: #717171;
+}
+
+#welcomeLorem{
+   width: 83%;
+   height: 24%;
+   text-align:left;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 35px;
+   color: #636060;
+}
+
+button#Learn{
+   margin-top: 6%;
+   width: 28%;
+   height: 11%;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #000000;
+   transition: 1s;
+
+   border: 2px solid #E06733;
+   border-radius: 10px;
+   
+}
+
+button#Learn:hover{
+   transition: 1s;
+   color: white;
+   background-color: #E06733;
+   border: 2px solid #E06733;
+   border-radius: 10px;
+}
+
+.about{
+   width: 100%;
+   height: 666px;
+   display: flex;
+   background: #FFFFFF;
+}
+
+#aboutSection{
+   width: 85%;
+   height: 479px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 7.56%;
+   margin-left: 7.56%;
+}
+
+#houseplant{
+   width: 38%;
+}
+
+#about_us_section{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+}
+
+#aboutZag{
+   width: 76%;
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 52px;
+   color: #499A18;
+}
+
+#aboutLorem{
+   width: 85%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   text-align: left;
+   color: #636060;
+}
+
+.service{
+   width: 100%;
+   height: 1300px;
+   background: #EDF2EC;
+   display: flex;
+   flex-direction: column;
+}
+
+#services_content{
+   width: 69.9%;
+   height: 94px;
+   margin-left: 7.56%;
+   margin-right: 22.5%;
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#ServiceAndOur{
+   width: 30.37%;
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 52px;
+
+   color: #499A18;
+}
+
+#services_btn{
+   width: 55.5%;
+   display: flex;
+   justify-content: space-between;
+}
+
+Button#Gardiens{
+   width: 28.8%;
+   height: 50px;
+
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 26px;
+
+   color: #E06733;
+   border: 2px solid #E06733;
+   border-radius: 5px;
+   transition: 1s;
+}
+
+button#Gardiens:hover {
+   transition: 1s;
+   color: white;
+   background-color: #E06733;
+   border: 2px solid #E06733;
+   border-radius: 10px;
+}
+
+#services {
+   margin-left: 7.56%;
+   margin-right: 7.56%;
+   margin-top: 90px;
+   width: 84.86%;
+   height: 955px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+#service_item{
+   width: 28.6%;
+   height: 450px;
+   border: 1px solid #E3E1D5;
+   border-radius: 0px 0px 20px 20px;
+}
+
+#garden_care {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 20px;
+   text-align: center;
+   color: #E06733;
+}
+
+#service_item p {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #717171;
+}
+
+.prices{
+   width: 100%;
+   height: 560px;
+   display: flex;
+   background: #FFFFFF;
+}
+
+#prices_wrapper{
+   width: 84.86%;
+   height: 405px;
+   margin-left: 7.56%;
+   margin-right: 7.56%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+#prices_block{
+   width: 27.16%;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+}
+
+#text_price{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+   height: 12.5%;
+   color: #000000;
+}
+
+#price_items{
+   height: 72.2%;
+   width: 100%;
+   border: 1px solid #E3E1D5;
+   border-radius: 20px;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
+   align-items:center;
+}
+
+#price_item{
+   width: 75.3%;
+   height: 17.7%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 20px;
+   color: #000000;
+   background:#EDF2EC ;
+   border-radius: 20px;
+   color: #717171;
+   display: flex;
+   justify-content: space-around;
+   align-items:center;
+}
+
+#price_item p{
+   width: 40%;
+}
+
+#btn_price{
+   width: 6.4%;
+   height: 16px;
+   background:#D9D9D9;
+   border-radius: 100%;
+   border: 0.5px solid #717171;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+
+#text_and_leafs{
+   width: 36.9%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+#text{
+   width: 100%;
+   height: 47.16%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+#Our_best{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 50px;
+   text-align: right;
+   color: #000000;
+}
+
+#btn_contacnt_us{
+   width: 35.8%;
+   height: 50px;
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 26px;
+   text-align: center;
+   color: #E06733;
+   border: 1px solid #E06733;
+   border-radius: 5px;
+   margin-left: 0px;
+   align-self: flex-end;
+   background-color:#FFFFFF;
+   transition: 1s;
+}
+
+#btn_contacnt_us:hover{
+   transition: 1s;
+   color: white;
+   background-color: #E06733;
+   border: 2px solid #E06733;
+   border-radius: 5px;
+}
+
+#leafs_price{
+   width: 33.6%;
+   height: 42.9%;
+   align-self: flex-end;
+}
+
+.contacts{
+   width: 100%;
+   height: 550px;
+   background: #EDF2EC;
+   display: flex;
+   justify-content: space-around;
+}
+
+.contacts p{
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 52px;
+   color: #499A18;
+   margin-top:60px ;
+}
+
+#img_woman{
+   margin-bottom: 1px;
+   width: 31%; 
+   height:496px;
+   align-self:flex-end;
+}
+
+#city{
+   margin-top: 148px ;
+   margin-right: 7.56%;
+   width: 31%;
+   height: 50px;
+   background: #D6E7D2;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 0px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+#city p{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 40px;
+   letter-spacing: 0.05em;
+   color: #717171;
+   margin: 0;
+   width: 50%;
+}
+
+#btn_cintacts{
+   width: 3.5%;
+   height: 32%;
+   background: #AEA1A1;
+   border-radius: 100%;
+   border: 0.5px solid #717171;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   align-self:center;
+}
+
+footer{
+   width: 100%;
+   height: 130px;
+   display: flex;
+   background: #FFFFFF;
+   display: flex;
+}
+
+#content{
+   margin-left: 7.56%;
+   margin-right: 7.56%;
+   width: 84.86%;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+#footer_date{
+   width: 14.8%;
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+}
+
+#github{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 50px;
+
+   color: #000000;
+
+}
+
+#RS{
+   width: 17.2%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 50px;
+   color: #000000;
+   align-self:center;
+}
+
+#social_list{
+   width: 17.3%;
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+}
